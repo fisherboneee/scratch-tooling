@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/scratch-tooling" mode="merge"/>
+    <filter root="/content/scratch-tooling" mode="merge"/>
+    <filter root="/content/dam/scratch-tooling" mode="merge">
+        <exclude pattern="/content/dam/scratch-tooling(/.*)?"/>
+        <include pattern="/content/dam/scratch-tooling/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/scratch-tooling/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/scratch-tooling" mode="merge"/>
+</workspaceFilter>

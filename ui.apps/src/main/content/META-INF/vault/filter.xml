@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/scratch-tooling/clientlibs"/>
+    <filter root="/apps/scratch-tooling/components"/>
+    <filter root="/apps/scratch-tooling/i18n"/>
+</workspaceFilter>
